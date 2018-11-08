@@ -12,24 +12,32 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 444px;
 }
 #container .innovation-area {
     position: relative;
-    margin: -7px auto;
-    width: 1004px;
-    max-width: 940px;
+    margin: -7px 210px;
+    width: 100%;
+    max-width: 1080px;
     margin 0 auto;
 }
 #container .innovation-area h1{
-    margin-top: 70px;
-    margin-bottom: 20px;
-    font-size: 41px;
+    color: #212121;
+    margin-top: 80px;
+    margin-bottom: 18px;
+    font-size: 45px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 }
-#container .innovation-area p{
-    font-size: 15px;
-    text-transform: uppercase;
-    text-align: center;
+#container .innovation-area p {
+    color: #626262;
+    font-size: 17px;
+    text-align: left;
+    line-height: 25px;
+}
+
+#container .innovation-area .specs-price h2 {
+    font-weight: 200;
+    font-size: 32px;
+    margin-top: 25px;
 }
